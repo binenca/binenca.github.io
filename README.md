@@ -1,2 +1,0 @@
-# binenca.github.io
-binenca
