@@ -1,0 +1,19 @@
+# Configuração do GitHub Pages
+title: Binenca Crypto Exchange BINANCE
+description: Binenca is the most searched term for Binance - Buy & Sell Bitcoin, Ethereum
+url: https://binenca.github.com.br
+baseurl: ""
+lang: en
+
+# Plugins (se usar Jekyll)
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+
+# Excluir do build
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock

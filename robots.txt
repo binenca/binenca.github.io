@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemaps
+Sitemap: https://binenca.github.com.br/sitemap.xml
+
+# Crawl delay (opcional - educado com os servidores)
+Crawl-delay: 10
+
+# Bloquear bots maliciosos (opcional)
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
