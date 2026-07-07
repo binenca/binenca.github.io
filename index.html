@@ -423,6 +423,35 @@
                 padding: 40px 32px;
             }
         }
+        .cta-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .arrow-left {
+            display: inline-block;
+            animation: pulse-left 1.5s ease-in-out infinite;
+            font-size: 18px;
+        }
+
+        .arrow-right {
+            display: inline-block;
+            animation: pulse-right 1.5s ease-in-out infinite;
+            font-size: 18px;
+        }
+
+        @keyframes pulse-left {
+            0%, 100% { transform: translateX(0); opacity: 1; }
+            50% { transform: translateX(-5px); opacity: 0.6; }
+        }
+
+        @keyframes pulse-right {
+            0%, 100% { transform: translateX(0); opacity: 1; }
+            50% { transform: translateX(5px); opacity: 0.6; }
+        }
     </style>
 </head>
 <body>
@@ -446,16 +475,12 @@
         <main class="container">
             <!-- Hero -->
             <div class="hero">
-                <!--<span class="hero-icon">🪙</span> -->
                 <h1>Binenca Crypto Exchange <span class="highlight">BINANCE</span></h1>
                 <p class="hero-subtitle">Compre e venda Bitcoin, Ethereum e +350 criptomoedas</p>
                 <!-- BOTÃO GIGANTE -->
                 <div class="cta-section">
-                    <a href="https://www.binance.com/register?ref=BINENCA" 
-                       class="cta-button" 
-                       rel="nofollow sponsored"
-                       title="Acessar site oficial da Binance">
-                        BINANCE: ACESSE O SITE OFICIAL
+                    <a href="https://www.binance.com/register?ref=BINENCA" class="cta-button" rel="nofollow sponsored" title="Acessar site oficial da Binance">
+                        <span class="arrow-left">▶</span>BINANCE: ACESSE O SITE OFICIAL <span class="arrow-right">◀</span>
                         <span class="cta-subtext">Cadastre-se e ganhe bônus exclusivo</span>
                     </a>
                     <!-- <span class="bonus-tag">🎁 Código: BINENCA</span> -->
@@ -521,11 +546,8 @@
                 <p class="hero-subtitle">Compre y venda Bitcoin, Ethereum y +350 criptomonedas</p>
                 <!-- BOTÃO GIGANTE -->
                 <div class="cta-section">
-                    <a href="https://www.binance.com/register?ref=BINENCA" 
-                       class="cta-button" 
-                       rel="nofollow sponsored"
-                       title="Acceder al sitio oficial de Binance">
-                        BINANCE: VISITA EL SITIO OFICIAL
+                    <a href="https://www.binance.com/register?ref=BINENCA" class="cta-button" rel="nofollow sponsored" title="Acceder al sitio oficial de Binance">
+                        <span class="arrow-left">▶</span> BINANCE: VISITA EL SITIO OFICIAL <span class="arrow-right">◀</span>
                         <span class="cta-subtext">Regístrese y obtenga un bono exclusivo</span>
                     </a>
                 </div>
@@ -591,16 +613,12 @@
                 <p class="hero-subtitle">Buy, Sell Bitcoin, Ethereum & 350+ Cryptocurrencies</p>
                 <!-- GIANT BUTTON -->
                 <div class="cta-section">
-                    <a href="https://www.binance.com/register?ref=BINENCA" 
-                       class="cta-button" 
-                       rel="nofollow sponsored"
-                       title="Access the official Binance website">
-                        BINANCE: ACCESS THE OFFICIAL WEBSITE
+                    <a href="https://www.binance.com/register?ref=BINENCA" class="cta-button" rel="nofollow sponsored" title="Access the official Binance website">
+                        <span class="arrow-left">▶</span> BINANCE: ACCESS THE OFFICIAL WEBSITE <span class="arrow-right">◀</span>
                         <span class="cta-subtext">Sign up and get an exclusive bonus</span>
-                    </a>
+                    </a>                
                 </div>
             </div>
-
             <!-- Card Principal -->
             <div class="main-card">
                 <div class="features">
